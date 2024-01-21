@@ -938,6 +938,10 @@ while True:
         webbrowser.open_new("https://cdn.discordapp.com/attachments/1187037173418053632/1187037175238373427/radium-src.zip?ex=65956d84&is=6582f884&hm=039bb05f4dfc2c42c3d6e30fec87e77a54c9661d286db76e45a1dc440d74742a&")
     if chon == '52.5':
         webbrowser.open_new("https://cdn.discordapp.com/attachments/1187499792545366077/1187499848145043487/dortware_src.rar?ex=65971c6a&is=6584a76a&hm=99a03952431019ee4d0c0e64784117f4a474bef548227a9102da8c4925b53071&")
+    if chon == '53.5':
+        webbrowser.open_new("https://www.mediafire.com/file/4qd8wf56jrfqafg/GoldGrinder.zip/file")
+    if chon == '54.5':
+        webbrowser.open_new("https://www.masterof13fps.com/forum/threads/rise-6-1-25-beta-deobfuscated.8975/")
     if chon == '1.6':
         webbrowser.open_new("https://mimhax.netlify.app/Files/seppuku.jar")
     if chon == '2.6':
