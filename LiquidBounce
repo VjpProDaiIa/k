@@ -31,7 +31,7 @@ while True:
     if chon == '-':
         os.system('cls')
         print("Leaving LiquidBounce")
-        exec(requests.get('https://raw.githubusercontent.com/VuNguyenNotRealizing/MCCArchive/main/Minecraft').text)
+        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Minecraft').text)
     if chon == 'LB':
         webbrowser.open_new("https://liquidbounce.net/download")
     if chon == 'LB+':
