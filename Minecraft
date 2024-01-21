@@ -367,7 +367,7 @@ while True:
     chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')
 #If u choose a number then a browser appear with it download link.
     if chon == '-':
-        exec(requests.get('https://raw.githubusercontent.com/VuNguyenNotRealizing/MCCArchive/main/SSTOOL').text)
+        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/SStool').text)
     if chon == '1.1':
         exec(requests.get('https://raw.githubusercontent.com/VuNguyenNotRealizing/MCCArchive/main/Vape').text)
     if chon == '2.1':
