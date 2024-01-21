@@ -14,7 +14,7 @@ while True:
   if chon == '-':
       os.system('cls')
       print("Leaving Vape Section")
-      exec(requests.get('https://raw.githubusercontent.com/VuNguyenNotRealizing/MCCArchive/main/Minecraft').text)
+      exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Minecraft').text)
   if chon == '3.25':
       webbrowser.open_new("https://www.mediafire.com/file/8coudk5wgq9ssla/Vape_v3.25.zip/file")
   if chon == '4.04':
