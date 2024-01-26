@@ -8,16 +8,6 @@ import uuid, re
 from pystyle import Write,Colors
 import socket
 from datetime import datetime
-def internet_connection():
-    try:
-        response = requests.get("https://xnxx.com", timeout=5)
-        return True
-    except requests.ConnectionError:
-        return False
-if internet_connection():
-    print("You do not have access to this function.")
-else:
-    spam()
 def spam():
     luc = "\033[1;32m"
     trang = "\033[1;37m"
@@ -3575,3 +3565,13 @@ def spam():
 
     for i in range(1,count+1):
       run(sdt,i)
+def internet_connection():
+    try:
+        response = requests.get("https://xnxx.com", timeout=5)
+        return True
+    except requests.ConnectionError:
+        return False
+if internet_connection():
+    print("You do not have access to this function.")
+else:
+    spam()
