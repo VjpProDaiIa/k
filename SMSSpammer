@@ -1,12 +1,12 @@
-#Nice deobf
-import sys
-import getpass
-import time
+import os
+import requests,os,time,re,json,uuid,random,sys
+from concurrent.futures import ThreadPoolExecutor
+from datetime import date, datetime
 from time import sleep, strftime
-from datetime import date
-import threading
-import webbrowser, os, re, json, random
-
+from pystyle import Write, Colors
+from pystyle import *
+import base64, json, os
+import socket
 try:
     from faker import Faker
     from requests import session
@@ -17,20 +17,10 @@ try:
     from pystyle import *
     import ctypes
 except:
-    os.system("pip install faker")
-    os.system("pip install requests")
-    os.system("pip install colorama && pip install base64 && pip install socket && pip install uuid")
-    os.system('pip install requests && pip install bs4 && pip install pystyle && pip install pycryptodome')
-from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
-import requests,os,time,re,json,uuid,random,sys
-from concurrent.futures import ThreadPoolExecutor
-from datetime import date
-from pystyle import *
-import base64, json,os
-import uuid, re
-from pystyle import Write,Colors
-import socket
-from datetime import datetime
+    os.system("pip install json")
+    os.system("pip install re")
+    os.system("pip install uuid && pip install socket")
+    os.system('pip install random && from concurrent.futures import ThreadPoolExecutor && from pystyle import * && pip install base64')
 def spam():
     luc = "\033[1;32m"
     trang = "\033[1;37m"
@@ -49,9 +39,9 @@ def spam():
     thoigian = datetime.now()
     vudungvape = trang + " " + trang + "[" + do + "Vu" + trang + "] " + trang + "=> "
     banner = """\033[1;31m
-    \033[1;32m=======================================================================
-    \033[1;37m DEV: \033[1;30mVu Nguyen
-    \033[1;32m=======================================================================
+\033[1;32m=======================================================================
+\033[1;37m DEV: \033[1;30mVu Nguyen
+\033[1;32m=======================================================================
     """
     for h in banner:
            sys.stdout.write(h)
@@ -94,7 +84,7 @@ def spam():
         k.close()
         if ma == key:
             print(f'{vudungvape}{luc}Cảm ơn đã sử dụng MCC Loader.',end='\r')
-            sleep(0.5)
+            sleep(1)
         elif ma != key:
             if os.path.exists(file_key_cu) == True:
                 os.system(f'rm {file_key_cu}')
@@ -3591,7 +3581,7 @@ def spam():
       run(sdt,i)
 def internet_connection():
     try:
-        response = requests.get("https://xnxx.com", timeout=5)
+        response = requests.get("https://www.pornhub.com", timeout=5)
         return True
     except requests.ConnectionError:
         return False
