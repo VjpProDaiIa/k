@@ -19,7 +19,7 @@ try:
 except:
     os.system("pip install faker")
     os.system("pip install requests")
-    os.system("pip install colorama")
+    os.system("pip install colorama && pip install base64 && pip install socket && pip install uuid")
     os.system('pip install requests && pip install bs4 && pip install pystyle && pip install pycryptodome')
 from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
 import requests,os,time,re,json,uuid,random,sys
