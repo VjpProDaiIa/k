@@ -417,9 +417,9 @@ while True:
     if chon == '-':
         os.system('cls')
         print("Now entering : SSTool")
-        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/SSTool').text)
+        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/SStool').text)
     if chon == '1.1':
-        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Vape').text)
+        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/VapeClient').text)
     if chon == '2.1':
         webbrowser.open_new("https://www.mediafire.com/file/1ogrrrao7vkef7s/Blossom.zip/file")
     if chon == '3.1':
@@ -447,7 +447,7 @@ while True:
     if chon == '14.1':
         webbrowser.open_new("https://www.mediafire.com/file/njdn9o73gehyxxb/Lithium_Lite.zip/file")
     if chon == '15.1':
-        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Raven').text)
+        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Raven').text)
     if chon == '16.1':
         webbrowser.open_new("https://www.mediafire.com/file/9bw1ggpe6lpitpe/Fractal.zip/file")
     if chon == '17.1':
@@ -594,7 +594,7 @@ while True:
     if chon == '87.1':
         webbrowser.open_new("https://www.mediafire.com/file/sg4aly241pwlrb0/Starlight.zip/file")
     if chon == '1.2':
-        exec(requests.get("https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Vestige").text)
+        exec(requests.get("https://raw.githubusercontent.com/VjpProDaiIa/k/main/Vestage").text)
     if chon == '2.2':
         webbrowser.open_new("https://www.mediafire.com/file/pd40jvic352zopy/Huzuni_Dev15_%25281.8%2529.zip/file")
     if chon == '3.2':
@@ -622,7 +622,7 @@ while True:
     if chon == '14.2':
         webbrowser.open_new("https://www.mediafire.com/file/komh0qjyq6lh6de/Moon.rar/file")
     if chon == '15.2':
-        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Rise').text)
+        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Rise').text)
     if chon == '16.2':
         webbrowser.open_new("https://www.mediafire.com/file/itc99scy7znfwfd/Dortware.zip/file")
     if chon == '17.2':
@@ -664,7 +664,7 @@ while True:
     if chon == '35.2':
         webbrowser.open_new("https://www.mediafire.com/file/7qqpq8clygn4etr/Clean.zip/file")
     if chon == '36.2':
-        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/LiquidBounce').text)
+        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/LiquidBounce').text)
     if chon == '37.2':
         webbrowser.open_new("https://qiwi.gg/file/2RcMi0g8Pig81WTyTmwEmxHChiy-317395-Augustus")
     if chon == '38.2':
