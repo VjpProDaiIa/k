@@ -1,13 +1,34 @@
-ves = """\033[1;31m[\033[1;39m-\033[1;31m] \033[1;34mBack to previous page 
+ves = """\033[1;39m
+
+                              ██╗░░░██╗███████╗░██████╗████████╗██╗░██████╗░███████╗
+                              ██║░░░██║██╔════╝██╔════╝╚══██╔══╝██║██╔════╝░██╔════╝
+                              ╚██╗░██╔╝█████╗░░╚█████╗░░░░██║░░░██║██║░░██╗░█████╗░░
+                              ░╚████╔╝░██╔══╝░░░╚═══██╗░░░██║░░░██║██║░░╚██╗██╔══╝░░
+                              ░░╚██╔╝░░███████╗██████╔╝░░░██║░░░██║╚██████╔╝███████╗
+                              ░░░╚═╝░░░╚══════╝╚═════╝░░░░╚═╝░░░╚═╝░╚═════╝░╚══════╝
+\033[1;39m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+\033[1;39m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+       \033[1;39m┌─────────────────────────────────────────── Archive ────────────────────────────────────────────┐            
+       \033[1;34m║                           \033[1;39m  Version          : \033[1;34m Premium                                        \033[1;34m║
+       \033[1;34m║                           \033[1;39m  Discord          : \033[0m discord.gg/chiterl                             \033[1;34m║         
+       \033[1;34m║                           \033[1;39m  Youtube          : \033[1;31m That Vape User ☊                               \033[1;34m║
+       \033[1;34m║                           \033[1;39m  Status           : \033[1;34m Beta                                           \033[1;34m║
+       \033[1;39m└────────────────────────────────────────────────────────────────────────────────────────────────┘
+   \033[0;31m                               Create a ticket if u found a client that not working.
+\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+                                            \033[1;39m┌─────────────────────┐         
+                                            \033[1;34m║    \033[1;39m   Vestige       \033[1;34m║          
+                                            \033[1;39m└─────────────────────┘          
+\033[1;31m[\033[1;39m-\033[1;31m] \033[1;34mBack to previous page 
+\033[1;31m[\033[1;39m1.9.5\033[1;31m] \033[1;34mVestige \033[1;31m[\033[1;33mv1.9.5\033[1;31m] 
 \033[1;31m[\033[1;39m2.0.2\033[1;31m] \033[1;34mVestige \033[1;31m[\033[1;33mv2.0.2\033[1;31m] 
-\033[1;31m[\033[1;39m2.2.1\033[1;31m] \033[1;34mVestige \033[1;31m[\033[1;33mv2.2.1 Patched\033[1;31m] 
-\033[1;31m[\033[1;39m3.0.?\033[1;31m] \033[1;34mVestige \033[1;31m[\033[1;33mv3.0.?\033[1;31m] 
-\033[1;31m[\033[1;39mVR\033[1;31m] \033[1;34mVestige Reborn \033[1;31m[\033[1;33mv1.2.1\033[1;31m]
+\033[1;31m[\033[1;39m3.0\033[1;31m] \033[1;34mVestige \033[1;31m[\033[1;33mv3.0\033[1;31m] 
+\033[1;31m[\033[1;39mVR\033[1;31m] \033[1;34mVestige Reborn
+\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 """
 print(ves)
-
-
-# =======================[RUN]=======================#
 while True:
   os.system('cls')
   print(ves)
@@ -16,13 +37,13 @@ while True:
       os.system('cls')
       print("Leaving Vestige")
       exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Minecraft').text)
+  if chon == '1.9.5':
+      webbrowser.open_new("https://www.mediafire.com/file/fowj4gm0k6a67ey/Vestige_1.9.5.zip/file")
   if chon == '2.0.2':
-      webbrowser.open_new("https://www.mediafire.com/file/adqea2u9ass33ni/Vestige_2.0.2.zip/file")
-  if chon == '2.2.1':
-      webbrowser.open_new("https://www.mediafire.com/file/puxs5k0hlvxmh6y/Vestige.zip/file")
-  if chon == '3.0.?':
-      webbrowser.open_new("https://www.mediafire.com/file/puxs5k0hlvxmh6y/Vestige.zip/file")
+      webbrowser.open_new("https://www.mediafire.com/file/7q25p9jm42j3v4z/Vestige+2.0.2.zip/file")
+  if chon == '3.0':
+      webbrowser.open_new("https://www.mediafire.com/file/hdt5u3i5wibo67h/Vestige+3.0.zip/file")
   if chon == 'VR':
-      webbrowser.open_new("https://cdn.discordapp.com/attachments/1163049995520458782/1182982091579863060/VestigeR.zip?ex=6586aced&is=657437ed&hm=2a19efec25e72980b403e21c418e548e79e7feac7d0bcca35206ee8abf3ae7f6&")
+      webbrowser.open_new("https://www.mediafire.com/file/q3bubemjy14yx0s/Vestige_Reborn.zip/file")
   else:
       continue
