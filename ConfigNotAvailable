@@ -1,0 +1,4 @@
+os.system('cls')
+        print(ConfigNotAvalable)
+        time.sleep(5)
+        break
