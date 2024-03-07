@@ -1,2 +1,88 @@
-print("Hi!")
-exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Multi').text)
+PRIV = """\033[1;39m
+
+                     ███╗░░░███╗██╗███╗░░██╗███████╗░█████╗░██████╗░░█████╗░███████╗████████╗
+                     ████╗░████║██║████╗░██║██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔════╝╚══██╔══╝
+                     ██╔████╔██║██║██╔██╗██║█████╗░░██║░░╚═╝██████╔╝███████║█████╗░░░░░██║░░░
+                     ██║╚██╔╝██║██║██║╚████║██╔══╝░░██║░░██╗██╔══██╗██╔══██║██╔══╝░░░░░██║░░░
+                     ██║░╚═╝░██║██║██║░╚███║███████╗╚█████╔╝██║░░██║██║░░██║██║░░░░░░░░██║░░░
+                     ╚═╝░░░░░╚═╝╚═╝╚═╝░░╚══╝╚══════╝░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░░░░╚═╝░░░
+\033[1;39m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+\033[1;39m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+
+       \033[1;39m┌─────────────────────────────────────────── Archive ────────────────────────────────────────────┐            
+       \033[1;34m║                           \033[1;39m  Version          : \033[1;34m Premium                                        \033[1;34m║
+       \033[1;34m║                           \033[1;39m  Discord          : \033[0m discord.gg/chiterl                             \033[1;34m║         
+       \033[1;34m║                           \033[1;39m  Youtube          : \033[1;31m That Vape User ☊                               \033[1;34m║
+       \033[1;34m║                           \033[1;39m  Status           : \033[1;34m Beta                                           \033[1;34m║
+       \033[1;39m└────────────────────────────────────────────────────────────────────────────────────────────────┘
+\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+                                                \033[1;39m┌───────────────────┐         
+                                                \033[1;34m║    \033[1;39m  Private      \033[1;34m║          
+                                                \033[1;39m└───────────────────┘          
+\033[1;31m[\033[1;39m1.1\033[1;31m] \033[1;34mBolthBorn
+\033[1;31m[\033[1;39m2.1\033[1;31m] \033[1;34mCoulter
+\033[1;31m[\033[1;39m3.1\033[1;31m] \033[1;34mEttelen
+\033[1;31m[\033[1;39m4.1\033[1;31m] \033[1;34mFate
+\033[1;31m[\033[1;39m5.1\033[1;31m] \033[1;34mMasked
+\033[1;31m[\033[1;39m6.1\033[1;31m] \033[1;34mMinato
+\033[1;31m[\033[1;39m7.1\033[1;31m] \033[1;34mReach External
+\033[1;31m[\033[1;39m8.1\033[1;31m] \033[1;34mThoiry
+\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+                                                \033[1;39m┌──────────────────┐          
+                                                \033[1;34m║  \033[1;39m    Clicker     \033[1;34m║          
+                                                \033[1;39m└──────────────────┘          
+\033[1;31m[\033[1;39m1.3\033[1;31m] \033[1;34mA0tm
+\033[1;31m[\033[1;39m2.3\033[1;31m] \033[1;34mChroma
+\033[1;31m[\033[1;39m3.3\033[1;31m] \033[1;34mHardala
+\033[1;31m[\033[1;39m4.3\033[1;31m] \033[1;34mLuvsy
+\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+                                                \033[1;39m┌──────────────────┐
+                                                \033[1;32m║ \033[1;39m     Others      \033[1;32m║
+                                                \033[1;39m└──────────────────┘
+\033[1;31m[\033[1;39m1.5\033[1;31m] \033[1;32mJava String Remover
+\033[1;31m[\033[1;39m2.5\033[1;31m] \033[1;32mSpeed Mod 
+\033[1;31m[\033[1;39m3.5\033[1;31m] \033[1;32mCheatBreaker Stizzy Method
+\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+\033[1;31m[\033[1;39m-\033[1;31m] \033[1;34mScreen Share Tools 
+"""
+print(PRIV)
+while True:
+    os.system('cls')
+    print(PRIV)
+    chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')
+    if chon == '-':
+        os.system('cls')
+        print("Now entering : SSTool")
+        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/SStool').text)
+    if chon == '1.1':
+        webbrowser.open_new("https://www.mediafire.com/file/t94mnbn1377tv8a/BolthBornClient.zip/file")
+    if chon == '2.1':
+        webbrowser.open_new("https://www.mediafire.com/file/pfdh6zjxoexskgf/ClouterGhost.zip/file")
+    if chon == '3.1':
+        webbrowser.open_new("https://www.mediafire.com/file/6uftqow877cfsty/Ettelen.zip/file")
+    if chon == '4.1':
+        webbrowser.open_new("https://www.mediafire.com/file/dfsi962zdeqf82b/Fate_V1.zip/file")
+    if chon == '5.1':
+        webbrowser.open_new("https://www.mediafire.com/file/lfu8scl911v39mu/Masked.zip/file")
+    if chon == '6.1':
+        webbrowser.open_new("https://www.mediafire.com/file/vdaegd1m534nlzd/Minato.zip/file")
+    if chon == '7.1':
+        webbrowser.open_new("https://www.mediafire.com/file/5a5ivsn515q89bh/Reach_External.zip/file")
+    if chon == '8.1':
+        webbrowser.open_new("https://www.mediafire.com/file/6uftqow877cfsty/Ettelen.zip/file")
+    if chon == '1.3':
+        webbrowser.open_new("https://www.mediafire.com/file/tsvjv3kuc1bqy8b/A0tmClicker.zip/file")
+    if chon == '2.3':
+        webbrowser.open_new("https://www.mediafire.com/file/gnp0u2swlb0kqhb/Chroma_Clicker.zip/file")
+    if chon == '3.3':
+        webbrowser.open_new("https://www.mediafire.com/file/ssierm0ii1xkjeg/HardalaClicker.zip/file")
+    if chon == '4.3':
+        webbrowser.open_new("https://www.mediafire.com/file/erqfyabqim52vot/Luvsy_Clicker.zip/file")
+    if chon == '1.5':
+        webbrowser.open_new("https://www.mediafire.com/file/pm05nz84k92tpdv/JavaStringRemover.zip/file")
+    if chon == '2.5':
+        webbrowser.open_new("https://www.mediafire.com/file/6z6zxkqv8hxfmrt/SpeedMod.zip/file")
+    if chon == '3.5':
+        webbrowser.open_new("https://www.mediafire.com/file/y2tqo2bi9zh3qdd/CheatBreaker(Stizzy+Method).zip/file")
+    else:
+        continue
