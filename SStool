@@ -1,3 +1,24 @@
+import sys
+import getpass
+import time
+from time import sleep, strftime
+from datetime import datetime
+import threading
+import webbrowser, os, re, json, random
+import subprocess
+try:
+    from faker import Faker
+    from requests import session
+    from colorama import Fore, Style
+    import requests, random, re
+    from random import choice, randint, shuffle
+    import pystyle
+except:
+    os.system("pip install faker")
+    os.system("pip install requests")
+    os.system("pip install colorama && pip install win32api")
+    os.system('pip install requests && pip install bs4 && pip install pystyle && pip install pycryptodome && pip install win32security')
+from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
 clean = """
 \033[1;39m
 
@@ -21,13 +42,13 @@ clean = """
                                     \033[1;97mThis section has not been audited by MCC's Archive.    
                                 \033[1;97mThat means that most of the things here may not working. 
                            \033[1;97mPlease report to us if you found a tools that is buggy/not working.
-\033[1;31m[\033[1;39m-\033[1;31m] \033[1;34mMinecraft Section
 \033[1;31m[\033[1;39m1\033[1;31m] \033[1;34mMasew Cleaner \033[1;31m[\033[1;33mUse at your own risk\033[1;31m] 
 \033[1;31m[\033[1;39m2\033[1;31m] \033[1;34mKatana SS Tool \033[1;31m[\033[1;33mWorking with clickers\033[1;31m] \033[1;31m[\033[1;33mUse at your own risk\033[1;31m] 
 \033[1;31m[\033[1;39m3\033[1;31m] \033[1;34mPrestige Self Destructor [\033[1;33mWorking with forge mods\033[1;31m] 
 \033[1;31m[\033[1;39m4\033[1;31m] \033[1;34mValorant Spoofer \033[1;31m[\033[1;33mUse at your own risk\033[1;31m] 
 \033[1;31m[\033[1;39m5\033[1;31m] \033[1;34mXelo HWID Spoofer \033[1;31m[\033[1;33mUse at your own risk\033[1;31m] \033[1;31m[\033[1;33mPassword : XELO-FREE-XhSAc\033[1;31m] 
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+\033[1;31m[\033[1;39m-\033[1;31m] \033[1;34mMinecraft Sections
     """
 print(clean)
 while True:
@@ -38,7 +59,7 @@ while True:
     if chon == '-':
         os.system('cls')
         print("Leaving SS-Tool")
-        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Minecraft').text)
+        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Multi').text)
     if chon == '1':
         webbrowser.open_new("https://cdn.discordapp.com/attachments/1148033696641859584/1171827433549336657/Masew_Cleaner.exe?ex=655e1857&is=654ba357&hm=9b7cd01dfe5d28b2b8d14c20db6209a9aa8b608085f4fa7b84a2e046896fc87d&")
     if chon == '2':
