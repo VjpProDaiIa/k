@@ -1,0 +1,16 @@
+os.system('cls')
+print(Util)
+while True:
+    os.system('cls')
+    print(Util)
+    gg = Write.Input("             [×] >>  ", Colors.red_to_purple, interval=0.0025)
+    if gg == '1':
+        os.system('cls')
+        print("                                               \033[1;39mLaunching...")
+        ytb()
+    if gg == '2':
+        os.system('cls')
+        print("                                               \033[1;39mLaunching...")
+        windows()
+    else:
+        continue
