@@ -453,6 +453,7 @@ mine = """\033[1;39m
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 \033[1;31m[\033[1;39m-\033[1;31m] \033[1;34mScreen Share Tools 
 """
+discord_rp_mc()
 print(mine)
 while True:
     discord_rp_mc()
