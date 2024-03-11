@@ -20,6 +20,13 @@ def manage_discord_rpc(state, details, large_image, large_text):
         RPC = None
 
 
+def discord_rp_mc():
+    manage_discord_rpc(
+        state="Downloading Minecraft Clients",
+        details=(f"Premium | Logged in as {keyauthapp.user_data.username}"),
+        large_image="screenshot_2024-03-10_172435",
+        large_text="https://discord.gg/gNq7SXbZhJ"
+    )
 
 def close_rpc_on_exit():
     global RPC
@@ -448,6 +455,7 @@ mine = """\033[1;39m
 """
 print(mine)
 while True:
+    discord_rp_mc()
     os.system('cls')
     print(mine)
     chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')
