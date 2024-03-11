@@ -7,8 +7,6 @@ import threading
 import webbrowser, os, re, json, random
 import subprocess
 from pypresence import Presence
-global RPC
-RPC = None
 
 global RPC
 RPC = None
