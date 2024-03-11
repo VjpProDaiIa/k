@@ -1,3 +1,42 @@
+from pypresence import Presence
+
+
+global RPC
+RPC = None
+
+CLIENT_ID = '1216435828931428504'  
+
+def manage_discord_rpc(state, details, large_image, large_text):
+    global RPC
+    try:
+        if RPC is None:  
+            RPC = Presence(CLIENT_ID)
+            RPC.connect()
+        RPC.update(state=state, details=details, large_image=large_image, large_text=large_text, start=time.time())
+    except Exception as e:
+        print(f"Error with Discord RPC: {e}")
+        try:
+            if RPC is not None:
+                RPC.close()
+        except Exception as e:
+            print(f"Error closing Discord RPC: {e}")
+        RPC = None
+
+
+def close_rpc_on_exit():
+    global RPC
+    if RPC is not None:
+        RPC.close()
+
+
+def discord_rp_mc():
+    manage_discord_rpc(
+        state="Downloading Minecraft Clients",
+        details=(f"Premium | Logged in as {keyauthapp.user_data.username}"),
+        large_image="screenshot_2024-03-10_172435",
+        large_text="https://discord.gg/gNq7SXbZhJ"
+    )
+
 os.system('cls')
 print(MinecraftMulti)
 while True:
@@ -5,10 +44,12 @@ while True:
     print(MinecraftMulti)
     gg = Write.Input("             [×] >>  ", Colors.red_to_purple, interval=0.0025)
     if gg == '1':
+        discord_rp_mc()
         os.system('cls')
         print("                                             \033[1;39mLoading Minecraft Sections..")
         exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Minecraft').text)
     if gg == '2':
+        discord_rp_mc()
         os.system('cls')
         print("                                       \033[1;39mLoading Private Client Section..")
         exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Private').text)
