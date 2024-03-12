@@ -53,5 +53,9 @@ while True:
         os.system('cls')
         print("                                       \033[1;39mLoading Private Client Section..")
         exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Private').text)
+    if gg == '3':
+        os.system('cls')
+        print("                                       \033[1;39mInitializing Valorant TriggerBot..")
+        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/vjp231/main/PyClickerTrigger').text)
     else:
         continue
