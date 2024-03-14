@@ -25,7 +25,7 @@ while True:
         print("Leaving Raven")
         exec(requests.get('https://raw.githubusercontent.com/VuNguyenNotRealizing/MCCArchive/main/Minecraft').text)
     if chon == 'B1':
-        webbrowser.open_new("https://www.mediafire.com/file/dz2qqfvx8rv4s6s/[1.7.10]_Keystrokes_V4.jar/file")
+        webbrowser.open_new("")
     if chon == 'B2':
         webbrowser.open_new("https://www.mediafire.com/file/frqynrmi3qh9atn/raven_b2.jar/file")
     if chon == 'B3':
