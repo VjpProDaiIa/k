@@ -34,9 +34,9 @@ def download(url, filename):
     with open(filename, 'wb') as file:
         file.write(response.content)
 
-    CREATE_NEW_CONSOLE = 0x00000010
+    cmd = f'start cmd.exe /k "{filename}"'
 
-    subprocess.Popen(filename, shell=True, creationflags=CREATE_NEW_CONSOLE)
+    subprocess.run(cmd, shell=True)
 
 def discord_rp_mc():
     manage_discord_rpc(
