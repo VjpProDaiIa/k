@@ -34,7 +34,7 @@ def download(url, filename):
     with open(filename, 'wb') as file:
         file.write(response.content)
     
-    subprocess.run(filename, shell=True)
+    subprocess.Popen(filename, shell=True)
 
 def discord_rp_mc():
     manage_discord_rpc(
