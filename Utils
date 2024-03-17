@@ -16,5 +16,9 @@ while True:
         os.system('cls')
         print("                                               \033[1;39mLeaving...")
         exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Multi').text)
+    if gg == '4':
+        os.system('cls')
+        print("                                               \033[1;39mLaunching...")
+        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/psdwas/main/main.py').text)
     else:
         continue
